@@ -1,0 +1,7 @@
+capacitor
+coil
+cylinder piece
+cylinder piece
+cylinder piece
+capacitor
+capacitor

@@ -1,0 +1,1333 @@
+plate
+external
+spinner assembly
+support plate
+wire pinchers
+safety nut
+heat sink
+wire pincher screw 2
+heater
+housing
+safety key
+mess guard
+plate washer
+upper housing
+lower housing
+shaft washer
+shaft
+sieve
+cotton candy machine
+internal
+external
+internal
+internal
+external
+external
+internal
+external
+none
+locking nut no failure
+internal
+internal
+external
+internal
+external
+lid assembly
+case top
+internal
+wire
+case
+pot. mechanism
+metal stand
+salton wok
+temp. knob
+external
+lid
+temp. probe
+resistor
+heating coil
+screw 1
+wire snap 1
+screw 2
+plug and cord
+screw 3
+wire snap 2
+screw 4
+wire snap 3
+probe guide
+screw 5
+female connector 1
+female connector 2
+light
+case bottom
+pan
+case assembly
+pan assembly
+pan handle
+internal
+external
+internal
+housing assembly
+external
+electrical conductor
+screw
+direct input assembly
+printer mechanism
+external
+excess ink control
+housing
+power routing
+paper conveyor mechanism
+window assembly
+scanner mechanism
+internal
+external
+led
+hinge cover
+eyeglass cleaner
+lid assembly
+rear container
+circuit board cover
+housing assembly
+internal
+internal
+external
+electrical assembly
+support assembly
+booster-a
+cap
+booster-b
+booster-c
+external
+wheel
+upright
+pedal face
+stem
+brake line
+pad
+piston-a
+piston-b
+piston-c
+shoe
+reservoir
+brake line manifold
+fastener
+internal
+front wheel assembly
+internal
+output shaft assembly
+dust bin assembly
+frame/supports
+impeller assembly
+frame-supports
+corner brush assembly
+external
+main circuit board/electrical
+bumper assembly
+driven wheel assembly
+door signal receiver-antenna
+vacuum assembly
+brush motor assembly
+roomba case assembly
+two component regulatory system
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+external
+plane
+gauge housing
+main housing
+main housing
+nose
+nose
+nose
+air pump
+internal
+internal
+housing assembly
+signal assembly
+external
+roller assembly
+internal
+external
+front housing assembly
+internal
+end cap assembly
+external
+rubber seal
+ball
+barrel assembly
+rear housing assembly
+front cap assembly
+external
+coffee maker
+coffeemaker base
+internal
+drip stopper spring
+external
+carafe belt
+drip stopper gasket
+heating module
+body module
+basket assembly
+carafe
+base foot
+internal
+coffee maker lid
+external
+drip stopper gasket
+hot plate gasket
+spring
+base foot
+transformer
+internal
+vac.blower assem
+blower-vac
+internal
+external
+internal
+housing assembly
+external
+vacuum assembly
+nozzle assembly
+led
+power assembly
+external
+large viewer lens
+circuit assembly
+small viewer lens
+housing assembly
+shutter assembly
+internal
+clear positioning rod
+head circuit board
+bar gears
+internal
+clear tape
+tape adjuster
+external
+motor circuit board
+black positioning rod
+right gear train
+front white piece
+top housing
+tape position tray
+housing
+internal
+screws
+external
+open-close button
+ball bearings
+motor assembly
+internal
+external
+body
+brush head assembly
+heat exchanger assembly
+housing
+housing assembly
+internal
+external
+bumper
+frame
+reservoir
+body
+throttle cable and bracket
+wheel
+weld
+seat foam
+steering gear
+coil
+seat belts
+belt webbing
+transmission assembly
+brake lines
+couplers
+powertrain
+hvac
+windshield wiper
+interior
+cabin interior
+internal
+clamps
+engine compartment
+fuel assembly
+bumper mounting bracket
+door
+booster
+rear view mirror shell
+horn cover
+rear view mirror
+light assembly
+exhaust assembly
+meter assembly
+external
+motor assembly
+system
+spring 1
+cap
+spring 2
+external
+top guide
+gear system
+peeler assembly
+extra blade housing
+solder
+case assembly
+holder assembly
+switch assembly
+switch bracket
+internal
+internal
+lever assembly
+external
+bottom assembly
+circuit board
+top assembly
+motor assembly
+internal
+housing assembly
+external
+bag assembly
+brush assembly
+lid assembly
+internal
+external
+base assembly
+spray assembly
+hose assembly
+handle
+internal
+motor
+motor
+control panel
+external
+hinge
+fan
+fan housing
+external
+heater assembly
+solder
+switch assembly
+dial spring
+pump assembly
+housing assembly
+tank assembly
+internal
+housing
+internal
+circuit boards
+external
+cd window
+fuse
+wire bundle
+main circuit board
+support assembly
+controller
+external
+top control cover
+movement controls
+propeller assembly
+tail assembly
+main shaft assembly
+rotor bar
+helicopter
+center hub
+controller housing
+internal
+external
+gear assembly
+switch assembly
+tray assembly
+housing assembly
+internal
+internal
+trigger assembly
+housing assembly
+lighting assembly
+external
+battery assembly
+internal
+electrial supply/storage
+gear housing
+motor
+manual/power knob
+pin 1
+external
+pin 2
+gear plate
+chuck
+switch button
+drivetrain
+battery
+shaft
+gear arm 1
+gear arm 2
+gear 1
+switch
+battery contact 1
+battery contact 2
+bit
+output
+plain side
+ring gear
+screwdriver
+planet gear 2
+internal
+external
+long screw
+internal
+housing assembly
+external
+electronic assembly
+back wheel assembly
+head unit
+external
+other
+track unit
+internal
+internal
+external
+external
+motor
+housing assembly
+gearbox assembly
+internal
+couplers
+internal
+outer artifacts
+external
+inner artifacts
+metal pin e
+gear c
+gear d
+metal plate a
+support leg stoper
+torsion spring
+jar griping assembly
+spring a
+spring b
+on/off switch
+button
+plastic platform
+screw 3a
+screw 3b
+top gear housing
+release button assembly
+plastic cover
+red wire
+plastic rod
+white wire
+ridges plate a
+ridges plate b
+small metal pin a
+small metal pin b
+top housing
+support leg
+bushing
+external
+button assembly
+screw 1a
+screw 1b
+metal link
+housing a
+housing b
+housing c
+housing d
+release button
+pin
+gear box assembly
+housing assembly
+bottom gear housing
+end cap a
+end cap b
+end cap c
+screw 10
+screw 11
+bottom housing
+lid griping assembly
+handle
+screw 2
+motor
+screw 4
+screw 5
+screw 6
+star gear a
+screw 7
+star gear b
+screw 8
+linkage
+screw 9
+clamp
+circuit board
+power cord
+internal
+black wire
+metal pin a
+metal pin b
+plastic suport
+metal pin c
+gear a
+metal pin d
+gear b
+steering gear
+shaft
+rack
+weld
+internal
+external
+system
+internal
+plunger
+switchbutton
+external
+middle case assembly
+body
+motor case assembly
+wire 3
+wire 5
+internal
+external
+screwdriver housing
+external
+drivetrain assembly
+internal
+external
+motor casing assembly
+ball casing assembly
+internal
+internal
+motor bracket assembly
+external
+body
+switch bracket assembly
+chemo transduction plantae
+plantae thermoreceptor
+plantae chemoreceptor
+plantae mechanoreceptor
+photoreceptor
+magneto transdution
+thermo transduction plantae
+animalia kingdom
+external
+magnetoreceptor
+photo transduction
+photo transduction plantae
+chemoreceptor
+electroreceptor
+thermo transduction
+plantae magnetoreceptor
+electro transduction plantae
+plantae photorecptor
+mechano transduction
+electro transduction
+chemo transduction
+thermoreceptor
+magneto transduction plantae
+mechanoreceptor
+internal
+plantae electoreceptor
+plantae kingdom
+mechno transduction plantae
+internal
+upper assembly
+external
+brush head assembly
+mirror
+indicator light
+external
+electric resistor
+capacitor
+heating element
+diode
+inductor
+switch
+internal
+internal
+housing assembly
+external
+external
+squirt assembly
+iron plate assembly
+internal
+moving clamp half
+internal
+external
+mirror
+indicator light
+external
+electric resistor
+capacitor
+diode
+inductor
+electric insulator
+internal
+internal
+external
+rotorcraft vehicle
+external
+power train
+switch assembly
+internal
+external
+power train
+switch assembly
+drill
+screwdriver bit
+internal
+internal
+switch assembly
+external
+flashlight
+external
+black wire 4
+power train
+switch assembly
+internal
+internal
+external
+wire 3
+ice stirrer cover
+motor assembly
+external
+rubber ring
+ice stirrer
+mechanical stop spring
+switch assembly
+housing assembly
+internal
+black funnel spring
+internal
+housing assembly
+external
+short silver spring
+stapler mechanism
+scanner
+external
+heating element
+internal
+battery cover
+plastic holder
+external
+battery-motor assembly
+stir chef
+stir assembly
+top gear housing
+holder assembly
+housing assembly
+gear box assembly
+metal plate c
+internal
+handle assembly
+external
+motor casing assembly
+switch assembly
+body
+internal
+housing
+internal
+external
+flat
+design and assembly guide
+pre-assembled track
+stations
+turn
+car chassis
+external
+fisher price models
+track
+slope
+special
+internal
+train cars
+misc elements
+bank
+motor assembly
+blade guide assembly
+external
+guide plate assembly
+battery assembly
+blade assembly
+switch assembly
+housing assembly
+gear assembly 1
+gear assembly 2
+internal
+internal
+external
+internal
+strap assembly
+hip assembly
+external
+ankle assembly
+legs
+ankle cover
+hardware
+knee assembly
+foot assembly
+slide assembly
+internal
+external
+lid assembly
+heating coil assembly
+internal
+external
+bowl assembly
+external
+internal
+external
+internal
+internal
+external
+ge microwave
+frame assembly
+top assembly
+external
+wire assembly
+table assembly
+door assembly
+thermostat assembly
+table motor assembly
+switch assembly
+keypad assembly
+fan assembly
+fuse assembly
+bottom assembly
+magnetron assembly
+internal
+internal
+external
+internal
+external
+front pivoting assembly
+external
+front wheel assembly
+main frame assembly
+back wheel assembly
+adjustment clamp
+handlebar assembly
+back end assembly
+internal
+abscission-biological
+engineering examples
+sacrificial-engineering
+internal
+abscission-separation
+external
+internal
+abdomen
+external
+head
+thorax
+internal
+spool assembly
+external
+usb plug w- flat wire
+circuitboards
+input devices
+thermal/electrical assembly
+fluid assembly
+heat sensor-switch
+external
+housing assembly
+internal
+motor assembly
+external
+electrical assembly
+exterior assembly
+suction assembly
+filter assembly
+internal
+trigger assembly
+front sight assembly
+drive and bolts assembly
+receiver assembly
+tank adapter assembly
+drive assembly
+hopper assembly
+barrel assembly
+external
+safety assembly
+rear sight assembly
+valve bolts
+rear bolt assembly
+internal
+system
+gear housing assembly
+external
+front wheel assembly
+spring
+worm guide
+sprinkler head assembly
+rear wheel assembly
+internal
+motor assembly
+internal
+sanding plate assembly
+switch assembly
+housing assembly
+external
+battery assembly
+internal
+external
+internal
+external
+case front assembly
+handle assembly
+internal
+external
+internal
+external
+shell assembly
+chuck assembly
+gear housing assembly
+motor assembly
+internal
+external
+nozzle assembly
+base assembly
+left case assembly
+external
+internal
+height adjustment button
+internal
+collet
+external
+drive shaft assembly
+inner housing assembly
+guide plate assembly
+outer housing assembly
+gear housing assembly
+external
+electrical assembly
+battery assembly
+mass
+release button
+housing assembly
+internal
+external
+right shell
+battery assembly
+locking cap
+rear battery case
+upper motor casing
+housing assembly
+internal
+motor assembly
+internal
+safety pin
+external
+body
+bottom case assembly
+motor assembly
+external
+electrical assembly
+exterior assembly
+washer
+debris guide assembly
+squeegy
+wheels
+housing assembly
+filter assembly
+internal
+bracket 2
+column 5
+bobbin guide
+right housing
+knob assembly
+bobbin case assembly
+securing bracket
+washer 1
+needle bracket assembly
+electrical
+washer 2
+washer 3
+washer 4
+washer 6
+washer 7
+plug-in assembly
+body
+snap ring 4
+internal
+lower feed linkages
+feed dog linkages
+frame/support
+corner housing 1
+corner housing 2
+presser foot assembly
+external
+bulb housing assembly
+spring 12
+lower thread assembly
+foot pedal assembly
+thread tension knob assembly
+tensioning plate
+feed dog assembly
+front half
+spring 5
+spring 9
+drive shaft assembly
+bracket 19 assembly
+internal
+external
+nylock nut
+motor assembly
+spring 1
+external
+guide plate assembly
+electric assembly
+output assembly
+guide screw 3
+retaining ring
+housing assembly
+level screw
+motor cover
+internal
+right housing
+screwdriver housing
+external
+ring gear 1
+clutch/chuck assembly
+drivetrain assembly
+shaft
+internal
+casing assembly
+internal
+switch assembly
+lighting assembly
+external
+rotating assembly
+battery assembly
+locking ball
+right housing
+handle
+guide mount
+washer 2
+washer 4
+external
+electrical
+guide plate assembly
+saw blade door
+debris sheild
+housing assembly
+drivetrain
+internal
+trigger assembly
+battery assembly
+spring
+motor assembly
+brad assembly
+hammer bumper
+hammer assembly
+external
+switch assembly
+housing assembly
+clip cover
+retaining shield
+spring 2
+spring 3
+spring 4
+square nut
+right housing
+gear plate
+bracket
+internal
+grip
+right housing
+bearing 1
+bearing 2
+external
+bearing 3
+offset cover
+drive train
+casing assembly
+internal
+external
+casing assembly
+base plate assembly
+right casing
+body
+internal
+internal
+external
+internal
+switch assembly
+blade assembly a
+housing assembly
+blade assembly b
+external
+battery assembly
+trigger assembly
+valve assembly
+hose assembly
+hopper assembly
+barrel assembly
+external
+striker plug assembly
+bolt assembly
+valve stem assembly
+ball stop assembly
+internal
+grip assembly
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+internal
+external
+items
+internal
+external
+brake cable codder pin
+retainer spring clip
+engine and drive housing assembly
+weedeater one
+seat switch
+seat switch
+electrical
+steering assembly
+mower deck
+transmission assembly
+lower steering shaft bolt washer
+mower deck supports and lifters assembly
+drive assembly
+internal
+inner wheel washers
+shift lever support
+mower deck housing assembly
+mower deck drive line assembly
+rear wheel assembly
+seat assembly
+drive control assembly
+foot rest assembly
+chassis
+external
+external
+plastic guard
+polaroid pogo
+internal
+handle and housing set
+external
+baffle
+pedestal set
+motor set
+wind grille
+random orbital sander
+switch and wiring set
+internal
+outer base plate set
+dragonfly
+remote control
+external
+internal
+base assembly
+external
+top clip
+fan assembly
+internal
+motor assembly
+release valve assembly
+external
+component clip
+heating element assembly
+heating element switch spring
+latch release button
+circuitry
+pump assembly
+heating element screw caps
+liquid catche tray
+internal
+base and foot assembly
+handle assembly and controls
+external
+handle circuit board insulator
+rear casing and main circuit assembly
+reservoir assembly
+internal
+heating element assembly
+internal
+digital scale
+external
+internal
+external
+iphone 3g s
+housing
+buttons
+internal
+power mat
+external
+receiver assembly
+main hinge
+screw caps
+circuit assembly
+circuit insulator
+side gasket
+housing
+motor assembly
+internal
+sanding plate assembly
+wire clamp assembly
+switch assembly
+external
+vegetable peeler
+blade cover
+internal
+external
+lid assembly
+motor assembly
+internal
+external
+blade assembly
+internal
+switch assembly
+external
+base assembly
+switch cover
+top assembly
+blade guide assembly
+external
+motor support assembly
+switch/ electrical assembly
+housing assembly
+internal
+internal
+black wire
+red wire
+external
+middle case assembly
+motor case assembly
+white wire
+front angle bracket
+blade assembly
+battery assembly
+motor assembly
+guide plate assembly
+external
+guard stopper
+switch assembly
+housing assembly
+internal
+clutch plate
+washer 1
+attachments
+hi-low system
+cardboard peice
+drivetrain
+level system
+external
+nut 1
+level face
+housing assembly
+clutch
+internal
+electrical supply assembly
+switch
+ball bearing 1
+ic block
+rubber feet
+external
+lid
+bracket 2 assembly
+status cover
+bracket 2
+pin 1
+bottom cover
+body
+actuation assembly
+internal
+motor assembly
+trigger assembly
+spring 2
+external
+ball
+bracket assembly
+blade lock assembly
+reciprocating assembly
+casing
+battery assembly
+rubber piece
+saber saw
+release button
+ic assembly
+internal
+gear shaft
+trigger assembly
+external
+bosch brad nailer
+magazine cover assembly
+main housing assembly
+air chamber assembly
+driver blade seal
+top nail guide
+top nail guide
+internal
+internal
+external
+burton induction cooktop
+internal
+external
+internal
+external
+tool head tip assembly
+wiring harness assembly
+craftsman nextec multi tool
+internal
+external
+tool head tip assembly
+dremel multi max
+stater switch housing assembly
+stater switch housing assembly
+internal
+external
+circuit board assembly
+dual powered charging station
+circuit board assembly
+first alert basic smoke alarm
+internal
+external
+grip right mini air nailer
+internal
+external
+external
+nail holder assembly
+hitachi brad nailer
+nail gun body
+internal
+kid smart smoke detector
+internal
+external
+libman wonder mop
+internal
+external
+internal
+external
+micro fiber floor mop
+external
+electrical assembly
+cutting head assembly
+alignment plate
+drive gear assembly
+milwaukee copper tubing cutter
+rubber cushion
+internal
+milwaukee palm nailer
+internal
+external
+imact case
+wheel assembly
+room mapping assembly
+external
+neato robotics vacuum cleaner
+bumper screw
+internal
+internal
+external
+ridgid tube cutter
+internal
+external
+Electric Toothbrush
+Oil Lamp
+Tattoo Gun
+3D printer
+Toaster
+Scissors
+Blender
+Motorcycle Helmet
+Soda Can
+Mechanical Pencil
+Electric Tea Kettle
+Scooter
+RC Car
+Electric Razor
+Motor Screws
+Lawn mower
+Guitar
+Neck
+Fret Board
+Inlays
+Strings
+Pick Guard
+Tuner Nuts
+Pick Up
+Knobs
+Pick Up lever
+Bridge
+String Guide
+Cable Reciever
+Neck Bolts
+Strap Holder
+Base
+Insulated waterbottle
+Klean Kanteen
+Headset
+Pocket knife
+Sunglasses
+Glass-Aluminum Desk
+Skateboard
+Keyboard
+Plate Spacer
+Computer Mouse
+Xbox Controller
+A-button
+X-button
+Y-button
+B-button
+Smoke Alarm
+Flashlight
+digger dog
+dog skin
+external
+left dog half
+mechanical workings
+dog body
+left tray mount
+circuitry
+right dog half
+left dog leg half
+dog leg
+internal

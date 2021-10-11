@@ -1,0 +1,26 @@
+stem
+piston-a
+piston-b
+piston-c
+hood
+hood
+fan
+placement pin
+short slide pin
+short slide pin
+long slide pin
+long slide pin
+screw 3
+screw 3
+body
+body
+body
+body
+body
+body
+body
+gear 2
+gear 2
+snap ring
+base heat shields
+front foot heat shield

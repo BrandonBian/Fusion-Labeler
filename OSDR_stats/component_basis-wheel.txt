@@ -1,0 +1,110 @@
+wheel
+wheel
+wheel
+wheel
+wheel
+rotor-a
+rotor-a
+rotor-b
+rotor-b
+rotor-c
+rotor-c
+end cap 1
+end cap 1
+end cap 1
+tire
+tire
+wheel
+wheel
+wheel
+wheel 1
+wheel 1
+wheel 1
+wheel 1
+black wheel
+black wheel
+black wheel
+black wheel
+wheel
+steering wheel
+steering wheel
+rotor
+rotor
+rotor
+rotor
+rotor
+rotor
+drive plate
+drive plate
+drive plate
+driver rotator
+driver rotator
+front wheel
+front wheel
+front wheel
+back wheel
+back wheel
+back wheel
+rear wheel 1
+rear wheel 2
+front wheel
+rear wheel
+rear wheel
+rear wheel
+rear wheel
+rear wheel
+rear wheel
+rear wheel
+rear wheel
+rear wheel
+rear wheel
+rear wheel
+rear wheel
+brake rotor
+friction wheel
+friction wheel
+friction wheel
+friction wheel
+friction wheel
+friction wheel
+steering wheel
+steering wheel
+steering wheel
+steering wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+front wheel
+wheel
+wheel
+front rollers
+front rollers
+back rollers
+back rollers
+Wheel
+Wheel
+Wheel
+Wheels
+Wheels
+Wheels
+Wheel
+Wheel
+Wheel
+Wheel
+Wheels

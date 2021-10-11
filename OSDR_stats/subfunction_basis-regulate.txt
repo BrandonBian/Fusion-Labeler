@@ -1,0 +1,152 @@
+caliper-a
+caliper-a
+caliper-b
+caliper-b
+caliper-c
+turning optical sensor 1
+turning optical sensor 2
+wall following sensor 1
+wall following sensor 2
+main circuit board
+main circuit board
+main circuit board
+main circuit board
+main circuit board
+stair avoiding sensor 1
+stair avoiding sensor 2
+main circuit board 2
+main circuit board 2
+main circuit board 2
+main circuit board 2
+main circuit board 2
+main circuit board 2
+wheel speed sensor 1
+wheel speed sensor 2
+regulator switch
+circuit board
+distributor
+vertical spray rod
+horizontal spray rod
+steam dial
+switch
+switch
+green circuit board
+green circuit board
+c shaped circuit board
+circuit board
+switch
+switch
+switch
+plastic shaft 1
+plastic shaft 1
+drive shaft
+planetary gear 1
+planetary gear 2
+planetary gear 3
+planetary gear carrier 1
+planetary gear carrier 2
+planetary gear carrier 3
+integrated circuit
+bulb fixture assembly
+gear
+guide shaft
+integrated circuit
+bimetallic heat sensor
+switch
+torso circuit board
+torso circuit board
+circuit board
+circuit board
+safety
+valve assembly
+valve assembly
+valve assembly
+velocity screw
+filter
+filter
+transmission link
+transmission link
+valve
+valve
+actuator
+circuit
+direction switch
+switch
+switch
+securing spring
+ring gear
+ring gear
+switch
+switch
+bracket 18
+bracket 18
+thread tension knob
+circuit board
+circuit board
+feed dog control arm
+feed dog control arm
+stitch width adjusting slider
+stitch width adjusting slider
+thread plate 1
+thread plate 1
+thread plate 2
+thread plate 2
+clutch
+clutch
+safety
+velocity adjust screw
+starting recoil module
+starting recoil module
+starting recoil module
+starting recoil module
+relay
+relay
+relay
+relay
+fuse 1
+fuse 1
+fuse 1
+fuse 1
+fuse 2
+fuse 2
+fuse 2
+fuse 2
+differential asm
+differential asm
+differential asm
+differential asm
+front case shell
+front case shell
+front case shell
+front case shell
+pressure valve gasket
+pressure valve gasket
+pressure valve gasket
+pressure valve gasket
+ball bearing
+switch
+temp sensor
+switch
+switch
+integrated circuit
+integrated circuit
+exhaust deflector
+temperature gauge
+temperature gauge
+link
+adjustment screw
+motor assmbly
+motor assmbly
+motor assmbly
+motor assmbly
+motor assmbly
+motor assmbly
+motor assmbly
+motor assmbly
+motor assmbly
+motor assmbly
+potentiometer
+potentiometer
+potentiometer
+Visor
+ESC

@@ -1,0 +1,29 @@
+turning optical sensor 1
+turning optical sensor 1
+turning optical sensor 2
+turning optical sensor 2
+wall following sensor 1
+wall following sensor 2
+stair avoiding sensor 1
+stair avoiding sensor 1
+stair avoiding sensor 2
+stair avoiding sensor 2
+wheel speed sensor 1
+wheel speed sensor 2
+wheel speed sensor 2
+drip stopper actuator
+switch
+switch
+circuit board
+circuit board
+read head
+handle top
+handle top
+handle top
+handle top
+handle bottom
+handle bottom
+handle bottom
+handle bottom
+control circuit
+control circuit

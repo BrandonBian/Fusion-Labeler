@@ -1,0 +1,10 @@
+inductor
+inductor
+magnetron
+magnetron
+magnetron
+magnetron
+magnetron
+transformer
+transformer
+transformer

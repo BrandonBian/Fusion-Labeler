@@ -1,0 +1,54 @@
+"id","subfunction","tier","child_of_subfunction","definition"
+1,branch,1,,"to cause a flow (material, energy, signal) to no longer be joined or mixed."
+2,separate,2,1,"to isolate a flow (material, energy, signal) into distinct components. the separated components are distinct from the flow before separation, as well as each other. example: a glass prism separates light into different wavelength components to produce a rainbow."
+3,divide,3,2,to separate a flow. example: a vending machine divides the solid form of coins into appropriate denominations.
+4,extract,3,2,"to draw, or forcibly pull out, a flow. example: a vacuum cleaner extracts debris from the imported mixture and exports clean air to the environment."
+5,remove,3,2,to take away a part of a flow from its prefixed place. example: a sander removes small pieces of the wood surface to smooth the wood.
+6,distribute,2,1,"to cause a flow (material, energy, signal) to break up. the individual bits are similar to each other and the undistributed flow. example: an atomizer distributes (or sprays) hair-styling liquids over the head to hold the hair in the desired style."
+8,import,2,7,"to bring in a flow (material, energy, signal) from outside the system boundary. example: a physical opening at the top of a blender pitcher imports a solid (food) into the system. also, a handle on the blender pitcher imports a human hand."
+9,export,2,7,"to send a flow (material, energy, signal) outside the system boundary. example: pouring blended food out of a standard blender pitcher exports liquid from the system. the opening at the top of the blender is a solution to the export sub-function."
+11,transport,3,10,to move a material from one place to another. example: a coffee maker transports liquid (water) from its reservoir through its heating chamber and then to the filter basket.
+12,transmit,3,10,"to move an energy from one place to another. example: in a hand held power sander, the housing of the sander transmits human force to the object being sanded."
+13,guide,2,7,"to direct the course of a flow (material, energy, signal) along a specific path. example: a domestic hvac system guides gas (air) around the house to the correct locations via a set of ducts."
+14,translate,3,13,"to fix the movement of a flow by a device into one linear direction. example: in an assembly line, a conveyor belt translates partially completed products from one assembly station to another."
+15,rotate,3,13,to fix the movement of a flow by a device around one axis. example: a computer disk drive rotates the magnetic disks around an axis so that the head can read data.
+16,allow dof,3,13,"to control the movement of a flow by a force external to the device into one or more directions. example: to provide easy trunk access and close appropriately, trunk lids need to move along a specific degree of freedom. a four bar linkage allows a rotational dof for the trunk lid."
+19,join,3,18,to couple flows together in a predetermined manner. example: a ratchet joins a socket on its square shaft interface.
+20,link,3,18,to couple flows together by means of an intermediary flow. example: a turnbuckle links two ends of a steering cable together.
+21,mix,2,17,"to combine two flows (material, energy, signal) into a single, uniform homogeneous mass. example: a shaker mixes a paint base and its dyes to form a homogeneous liquid."
+22,control magnitude,1,,"to alter or govern the size or amplitude of a flow (material, energy, signal)."
+23,actuate,2,22,"to commence the flow of energy, signal, or material in response to an imported control signal. example: a circuit switch actuates the flow of electrical energy and turns on a light bulb."
+24,regulate,2,22,"to adjust the flow of energy, signal, or material in response to a control signal, such as a characteristic of a flow. example: turning the valves regulates the flow rate of the liquid flowing from a faucet."
+25,increase,3,24,to enlarge a flow in response to a control signal. example: opening the valve of a faucet further increases the flow of water.
+26,decrease,3,24,to reduce a flow in response to a control signal. example: closing the value further decreases the flow of propane to the gas grill.
+27,change,2,22,"to adjust the flow of energy, signal, or material in a predetermined and fixed manner. example: in a hand held drill, a variable resistor changes the electrical energy flow to the motor thus changing the speed the drill turns."
+28,increment,3,27,to enlarge a flow in a predetermined and fixed manner. example: a magnifying glass increments he visual signal (i.e. the print) from a paper document.
+29,decrement,3,27,to reduce a flow in a predetermined and fixed manner. example: the gear train of a power screwdriver decrements the flow of rotational energy.
+30,shape,3,27,"to mold or form a flow. example: in the auto industry, large presses shape sheet metal into contoured surfaces that become fenders, hoods and trunks."
+31,condition,3,27,"to render a flow appropriate for the desired use. example: to prevent damage to electrical equipment, a surge protector conditions electrical energy by excluding spikes and noise (usually through capacitors) from the energy path."
+32,stop,2,22,"to cease, or prevent, the transfer of a flow (material, energy, signal). example: a reflective coating on a window stops the transmission of uv radiation through a window."
+33,prevent,3,32,to keep a flow from happening. example: a submerged gate on a dam wall prevents water from flowing to the other side.
+34,inhibit,3,32,"to significantly restrain a flow, though a portion of the flow continues to be transferred. example: the structures of space vehicles inhibits the flow of radiation to protect crew and cargo."
+35,convert,1,,"to change from one form of a flow (material, energy, signal) to another. for completeness, any type of flow conversion is valid. in practice, conversions such as convert electricity to torque will be more common than convert solid to optical energy. example: an electrical motor converts electricity to rotational energy"
+36,convert,2,35,"to change from one form of a flow (material, energy, signal) to another. for completeness, any type of flow conversion is valid. in practice, conversions such as convert electricity to torque will be more common than convert solid to optical energy. example: an electrical motor converts electricity to rotational energy"
+37,provision,1,,to accumulate or provide a material or energy flow.
+38,store,2,37,to accumulate a flow. example: a dc electrical battery stores the energy in a flashlight.
+39,contain,3,38,to keep a flow within limits. example: a vacuum bag contains debris vacuumed from a house.
+40,collect,3,38,to bring a flow together into one place. example: solar panels collect ultra-violet sun rays to power small mechanisms.
+41,supply,2,37,"to provide a flow from storage. example: in a flashlight, the battery supplies energy to the bulb."
+42,signal,1,,"to provide information on a material, energy or signal flow as an output signal flow. the information providing flow passes through the function unchanged."
+43,sense,2,42,"to perceive, or become aware, of a flow. example: an audiocassette machine senses if the end of the tape has been reached."
+44,detect,3,43,to discover information about a flow. example: a gauge on the top of a gas cylinder detects proper pressure ranges.
+45,measure,3,43,to determine the magnitude of a flow. example: an analog thermostat measures temperature through a bimetallic strip.
+46,indicate,2,42,to make something known to the user about a flow. example: a small window in the water container of a coffee maker indicates the level of water in the machine.
+47,track,3,46,"to observe and record data from a flow. example: by tracking the performance of batteries, the low efficiency point can be determined."
+48,display,3,46,to reveal something about a flow to the mind or eye. example: the xyz-coordinate display on a vertical milling machine displays the precise location of the cutting tool.
+49,process,2,42,to submit information to a particular treatment or method having a set number of operations or steps. example: a computer processes a login request signal before allowing a user access to its facilities.
+51,stabilize,2,50,"to prevent a flow from changing course or location. example: on a typical canister vacuum, the center of gravity is placed at a low elevation to stabilize the vacuum when it is pulled by the hose."
+50,support,1,,"to firmly fix a material into a defined location, or secure an energy or signal into a specific course."
+52,secure,2,50,"to firmly fix a flow path. example: on a bicycling glove, a velcro strap secures the human hand in the correct place."
+53,position,2,50,"to place a flow (material, energy, signal) into a specific location or orientation. example: the coin slot on a soda machine positions the coin to begin the coin evaluation and transportation procedure."
+7,channel,1,,"to cause a flow (material, energy, signal) to move from one location to another location."
+17,connect,1,,"to bring two or more flows (material, energy, signal) together."
+18,couple,2,17,"to join or bring together flows (material, energy, signal) such that the members are still distinguishable from each other. example: a standard pencil couples an eraser and a writing shaft. the coupling is performed using a metal sleeve that is crimped to the eraser and the shaft."
+10,transfer,2,7,"to shift, or convey, a flow (material, energy, signal) from one place to another."

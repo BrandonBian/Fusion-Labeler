@@ -1,0 +1,17 @@
+heater
+resistor
+electric resistor
+electric resistor
+capacitor
+capacitor
+capacitor
+strain gauge
+strain gauge
+strain gauge
+strain gauge
+strain gauge
+strain gauge
+strain gauge
+strain gauge
+temp sensor
+temp sensor

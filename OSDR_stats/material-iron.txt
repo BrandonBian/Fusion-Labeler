@@ -1,0 +1,69 @@
+drum-a
+drum-a
+drum-b
+drum-b
+drum-c
+drum-c
+fin
+fin
+fin
+brake cylinder-a
+brake cylinder-c
+rotor-a
+rotor-a
+rotor-b
+rotor-b
+rotor-c
+rotor-c
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+ic engine
+main housing
+gear housing
+gear housing
+gear housing
+gear housing
+gear housing
+gear housing
+frame
+frame
+frame
+frame
+frame
+frame
+frame
+frame
+frame
+frame
+impeller
+impeller
+impeller
+impeller
+impeller
+impeller
+impeller
+impeller
+heating element
+heating element
+heating element
+heating element
+heating element
+heating element
+heating element
+heating element
+small c clip

@@ -10,6 +10,8 @@ import re
 import sys
 
 THIS_ANNOTATION = []
+ALL_ANNOTATION = []
+
 LABELS_FINAL_OUT_DIR = "../labels/test_labels.csv"
 
 def get_all_files(directory, pattern):
@@ -59,17 +61,21 @@ def save_annotation(annotation):
     
     annotations_df = pd.DataFrame(annotation, columns=['Assembly_Name', 'Body_Name', 'Label_Tier1', 
                                                        'Label_Tier2', 'Label_Tier3'])
-    if not os.path.isfile(LABELS_FINAL_OUT_DIR):
-        annotations_df.to_csv(LABELS_FINAL_OUT_DIR)
-    else:
-        # read file and overwrite the labels that we have just manually annotated
-        try:       
-            annotations_old = pd.read_csv(LABELS_FINAL_OUT_DIR, index_col=0)
-        except:
-            annotations_old = pd.DataFrame()
+#     if not os.path.isfile(LABELS_FINAL_OUT_DIR):
+#         annotations_df.to_csv(LABELS_FINAL_OUT_DIR)
+#     else:
+#         # read file and overwrite the labels that we have just manually annotated
+#         try:       
+#             annotations_old = pd.read_csv(LABELS_FINAL_OUT_DIR, index_col=0)
+#         except:
+#             annotations_old = pd.DataFrame()
         
-    annotations_new = annotations_df.combine_first(annotations_old)
-    annotations_new.to_csv(LABELS_FINAL_OUT_DIR)
+#     annotations_new = annotations_df.combine_first(annotations_old)
+#     annotations_new.to_csv(LABELS_FINAL_OUT_DIR)
+    
+#     with open(LABELS_FINAL_OUT_DIR, "a") as f:
+#         annotations_df.to_csv(f, header = False)
+    annotations_df.to_csv(LABELS_FINAL_OUT_DIR, mode='a', header=False)
 
 
 
@@ -111,6 +117,12 @@ def annotate_functional_basis(examples,
 
     def show_next():
         nonlocal current_index
+        global ALL_ANNOTATION
+        global THIS_ANNOTATION
+        
+        # Reset annotation slots
+        ALL_ANNOTATION = []
+        THIS_ANNOTATION = []
         
 #         # TODO - delete the image that has already been annotated
 #         os.remove(examples[current_index])
@@ -144,6 +156,7 @@ def annotate_functional_basis(examples,
 
     def add_annotation_tier1_additional(annotation_tier1_additional):
         global THIS_ANNOTATION
+        global ALL_ANNOTATION
         
         current_name = str(examples[current_index])
         name = current_name.split("\\")[-1].split(".")[0]
@@ -167,9 +180,9 @@ def annotate_functional_basis(examples,
             THIS_ANNOTATION.append("[Skipped]")
             THIS_ANNOTATION.append("[Skipped]")
         
-        all_annotations.append(THIS_ANNOTATION)
+        ALL_ANNOTATION.append(THIS_ANNOTATION)
         
-        save_annotation(all_annotations)
+        save_annotation(ALL_ANNOTATION)
         
         show_next()
         
@@ -183,6 +196,7 @@ def annotate_functional_basis(examples,
 
     def add_annotation_tier2_additional(annotation_tier2_additional):
         global THIS_ANNOTATION
+        global ALL_ANNOTATION
         
         # If "Unknown / Can't Tell"
         if annotation_tier2_additional == "[Unknown / Can't Tell]":
@@ -190,9 +204,9 @@ def annotate_functional_basis(examples,
             THIS_ANNOTATION.append("[Unknown]")
             THIS_ANNOTATION.append("[Skipped]")
         
-            all_annotations.append(THIS_ANNOTATION)
+            ALL_ANNOTATION.append(THIS_ANNOTATION)
         
-            save_annotation(all_annotations)
+            save_annotation(ALL_ANNOTATION)
         
             show_next()    
         
@@ -204,26 +218,28 @@ def annotate_functional_basis(examples,
         
     def add_annotation_tier3(annotation_tier3):
              
-        global THIS_ANNOTATION    
+        global THIS_ANNOTATION
+        global ALL_ANNOTATION
         THIS_ANNOTATION.append(annotation_tier3)
         
-        all_annotations.append(THIS_ANNOTATION)
+        ALL_ANNOTATION.append(THIS_ANNOTATION)
         
-        save_annotation(all_annotations)
+        save_annotation(ALL_ANNOTATION)
         
         show_next()
         
     def add_annotation_tier3_additional(annotation_tier3_additional):
         global THIS_ANNOTATION
+        global ALL_ANNOTATION
         
         # If "Unknown / Can't Tell"
         if annotation_tier3_additional == "[Unknown / Can't Tell]":
         
             THIS_ANNOTATION.append("[Unknown]")
         
-            all_annotations.append(THIS_ANNOTATION)
+            ALL_ANNOTATION.append(THIS_ANNOTATION)
         
-            save_annotation(all_annotations)
+            save_annotation(ALL_ANNOTATION)
         
             show_next()    
         

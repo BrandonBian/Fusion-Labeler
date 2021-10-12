@@ -7,9 +7,10 @@ import pandas as pd
 import os
 import csv
 import re
+import sys
 
 THIS_ANNOTATION = []
-LABELS_FINAL_OUT_DIR = "../labels/labels.csv"
+LABELS_FINAL_OUT_DIR = "../labels/test_labels.csv"
 
 def get_all_files(directory, pattern):
     return [f for f in Path(directory).glob(pattern)]
@@ -72,6 +73,7 @@ def save_annotation(annotation):
 
 
 
+
 def annotate_functional_basis(examples,
              label_info,
              options_1=None,
@@ -109,6 +111,10 @@ def annotate_functional_basis(examples,
 
     def show_next():
         nonlocal current_index
+        
+#         # TODO - delete the image that has already been annotated
+#         os.remove(examples[current_index])
+        
         current_index += 1
         set_label_text()
         
@@ -119,7 +125,7 @@ def annotate_functional_basis(examples,
 
         clear_output(wait=True)
         draw_tier1()
-#         display_fn(examples[current_index])
+
 
     def add_annotation_tier1(annotation_tier1):
         global THIS_ANNOTATION
@@ -447,7 +453,7 @@ def annotate_functional_basis(examples,
     examples = retrieve_last_annotation(examples) 
     
     if len(examples) == 0:
-        print("All Files Are Annotated.")
+        print("All Files Are Annotated / No Files to be Annotated")
         return
     
     set_label_text()

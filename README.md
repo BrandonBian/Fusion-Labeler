@@ -1,9 +1,9 @@
 # Fusion-Labeler
 
 ## Requirements:
-1. Python 
-2. Git
-3. Jupyter Notebook
+1. Python ([from official website](https://www.python.org/downloads/))
+2. Git ([from offficial website](https://git-scm.com/downloads))
+3. Jupyter Notebook (command: "pip install notebook")
 
 ## Cloning the repository:
 Move to the directory on your local machine that you want to put the code and files in.

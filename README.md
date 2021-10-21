@@ -1,6 +1,6 @@
 # Fusion-Labeler
 
-## Requirements:
+## Requirements (make sure to install them first):
 1. Python ([from official website](https://www.python.org/downloads/))
 2. Git ([from offficial website](https://git-scm.com/downloads))
 3. Jupyter Notebook (command: "pip install notebook")
@@ -11,6 +11,10 @@ Then, run the following command to clone the remote repository to your local mac
 ```
 git clone https://github.com/BrandonBian/Fusion-Labeler.git
 ```
+
+## General Steps:
+1. 
+
 
 # Things to do for actual labeling:
 0. Delete the sample images and labels in "images_to_be_labeled/" and "labels/" directories.

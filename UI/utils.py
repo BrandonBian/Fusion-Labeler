@@ -9,10 +9,17 @@ import csv
 import re
 import sys
 
+OS_TYPE = None
+
 THIS_ANNOTATION = []
 ALL_ANNOTATION = []
 
 LABELS_FINAL_OUT_DIR = "../labels/test_labels.csv"
+
+def set_os_type(os_type):
+    global OS_TYPE
+    
+    OS_TYPE = os_type
 
 def get_all_files(directory, pattern):
     return [f for f in Path(directory).glob(pattern)]
@@ -81,6 +88,7 @@ def save_annotation(annotation):
 
 
 def annotate_functional_basis(examples,
+             operating_sys,
              label_info,
              options_1=None,
              display_fn=display):
@@ -143,7 +151,10 @@ def annotate_functional_basis(examples,
         global THIS_ANNOTATION
         
         current_name = str(examples[current_index])
-        name = current_name.split("\\")[-1].split(".")[0]
+        if OS_TYPE == "Windows":
+            name = current_name.split("\\")[-1].split(".")[0]
+        else:
+            name = current_name.split("/")[-1].split(".")[0]
         assembly_name = name.split("_sep_")[0]
         body_name = name.split("_sep_")[1]
         
@@ -159,7 +170,10 @@ def annotate_functional_basis(examples,
         global ALL_ANNOTATION
         
         current_name = str(examples[current_index])
-        name = current_name.split("\\")[-1].split(".")[0]
+        if OS_TYPE == "Windows":
+            name = current_name.split("\\")[-1].split(".")[0]
+        else:
+            name = current_name.split("/")[-1].split(".")[0]
         assembly_name = name.split("_sep_")[0]
         body_name = name.split("_sep_")[1]
         
@@ -457,6 +471,8 @@ def annotate_functional_basis(examples,
         display(box_additional)
         
         display_fn(examples[current_index])
+    
+    set_os_type(operating_sys)
     
     set_label_output(label_info)
     

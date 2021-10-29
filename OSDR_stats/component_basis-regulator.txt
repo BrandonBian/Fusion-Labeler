@@ -1,5 +1,0 @@
-on-off switch
-on-off switch
-on-off switch
-regulator switch
-regulator switch

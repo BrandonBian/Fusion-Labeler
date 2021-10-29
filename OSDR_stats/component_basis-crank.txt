@@ -1,6 +1,0 @@
-gear crank
-gear crank
-crank
-crank
-crank
-crank

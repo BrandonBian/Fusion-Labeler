@@ -1,0 +1,4 @@
+The images here are placeholders, and should be deleted before use.
+
+Please put the images of [assemblies to be filtered] in this folder.
+This folder is associated with the UI (Jupyter Notebook) named "Filter_Assemblies.ipynb"

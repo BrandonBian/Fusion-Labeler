@@ -43,7 +43,10 @@ def retrieve_last_annotation(examples): # Return list of annotation files withou
                 columns = row[1]
                 annotated_data.append(columns)
     
-    start = "..\\Assemblies_to_be_filtered\\"
+    if OS_TYPE == "Windows":
+        start = "..\\Assemblies_to_be_filtered\\"
+    else:
+        start = "../Assemblies_to_be_filtered/"
     end = ".png"
     
     for example in examples:

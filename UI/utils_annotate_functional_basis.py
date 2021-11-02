@@ -45,7 +45,10 @@ def retrieve_last_annotation(examples): # Return list of annotation files withou
                 columns = row[1] + row[2]
                 annotated_data.append(columns)
     
-    start = "..\\images_to_be_labeled\\"
+    if OS_TYPE == "Windows":
+        start = "..\\Images_to_be_labeled\\"
+    else:
+        start = "../Images_to_be_labeled/"
     end = ".jpg"
     
     for example in examples:

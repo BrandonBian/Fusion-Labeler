@@ -1,4 +1,4 @@
-from pygel3d import jupyter_display as jd
+# from pygel3d import jupyter_display as jd
 import functools
 from pathlib import Path
 from IPython.display import display, clear_output

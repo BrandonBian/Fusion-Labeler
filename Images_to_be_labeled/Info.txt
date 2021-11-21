@@ -1,4 +1,0 @@
-The images here are placeholders, and should be deleted before use.
-
-Please put the images of [bodies to be labeled/annotated] in this folder.
-This folder is associated with the UI (Jupyter Notebook) named "Annotate_Functional_Basis.ipynb"

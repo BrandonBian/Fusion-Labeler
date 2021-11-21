@@ -1,4 +1,3 @@
-
 import functools
 from pathlib import Path
 from IPython.display import display, clear_output
@@ -8,6 +7,14 @@ import os
 import csv
 import re
 import sys
+import numpy as np
+
+# New libraries needed for visualizing 3D mesh
+import meshplot as mp
+from assembly_graph import AssemblyGraph
+import igl
+
+################################ Code Starts Here
 
 OS_TYPE = None
 
@@ -46,9 +53,9 @@ def retrieve_last_annotation(examples): # Return list of annotation files withou
                 annotated_data.append(columns)
     
     if OS_TYPE == "Windows":
-        start = "..\\Images_to_be_labeled\\"
+        start = "..\\Bodies_to_be_labeled\\"
     else:
-        start = "../Images_to_be_labeled/"
+        start = "../Bodies_to_be_labeled/"
     end = ".jpg"
     
     for example in examples:
@@ -56,11 +63,16 @@ def retrieve_last_annotation(examples): # Return list of annotation files withou
         example = str(example)
         image_name = example[example.find(start)+len(start):example.rfind(end)]
         
-        assembly_name = image_name.split("_sep_")[0]
-        body_name = image_name.split("_sep_")[1]
+        if OS_TYPE == "Windows":
+            correct_name = image_name.split("\\")[1]
+        else:
+            correct_name = image_name.split("/")[1]
+        
+        assembly_name = correct_name.split("_sep_")[0]
+        body_name = correct_name.split("_sep_")[1]
         
         name = assembly_name+body_name
-        
+
         if name not in annotated_data:
             files_to_annotate.append(example)
                
@@ -71,23 +83,8 @@ def save_annotation(annotation):
     
     annotations_df = pd.DataFrame(annotation, columns=['Assembly_Name', 'Body_Name', 'Label_Tier1', 
                                                        'Label_Tier2', 'Label_Tier3'])
-#     if not os.path.isfile(LABELS_FINAL_OUT_DIR):
-#         annotations_df.to_csv(LABELS_FINAL_OUT_DIR)
-#     else:
-#         # read file and overwrite the labels that we have just manually annotated
-#         try:       
-#             annotations_old = pd.read_csv(LABELS_FINAL_OUT_DIR, index_col=0)
-#         except:
-#             annotations_old = pd.DataFrame()
-        
-#     annotations_new = annotations_df.combine_first(annotations_old)
-#     annotations_new.to_csv(LABELS_FINAL_OUT_DIR)
-    
-#     with open(LABELS_FINAL_OUT_DIR, "a") as f:
-#         annotations_df.to_csv(f, header = False)
+
     annotations_df.to_csv(LABELS_FINAL_OUT_DIR, mode='a', header=False)
-
-
 
 
 def annotate_functional_basis(examples,
@@ -264,11 +261,96 @@ def annotate_functional_basis(examples,
             
             clear_output(wait=True)
             draw_tier1()        
+
+    def display_3d_object():
+
+        clear_output(wait=True)
         
+        ############################### Draw highlighted 3D object section ###############################
+        
+        vertices_list = []
+        faces_list = []
+        face_offset = 0
+               
+
+        if OS_TYPE == "Windows":
+            assembly_id = str(examples[current_index]).split("\\")[3].split(".jpg")[0].split("_sep_")[0]
+            body_id = str(examples[current_index]).split("\\")[3].split(".jpg")[0].split("_sep_")[1]
+        else:
+            assembly_id = str(examples[current_index]).split("/")[3].split(".jpg")[0].split("_sep_")[0]
+            body_id = str(examples[current_index]).split("/")[3].split(".jpg")[0].split("_sep_")[1]            
+        
+        assembly_dir = Path("Bodies_to_be_labeled")
+        assembly_file = ".." / assembly_dir / assembly_id / "assembly.json"
+
+        ag = AssemblyGraph(assembly_file)
+        graph = ag.get_graph_networkx()
+        
+        body_to_highlight = body_id
+        highlight_v = None
+        highlight_f = None
+        
+        for index, (node_key, node_data) in enumerate(graph.nodes.data()):
+    
+            node_obj_file = assembly_file.parent / f"{node_data['body_file']}.obj"
+
+            v, f = igl.read_triangle_mesh(str(node_obj_file))
+            faces_list.append(f + face_offset)
+            v = np.pad(v.T, ((0, 1), (0, 0)), mode="constant", constant_values=1)
+
+            # Not all bodies have transform
+
+            try:
+                transform = np.array(node_data["transform"])
+
+            except:
+                print("Error: No Transform!")
+                transform = np.identity(4)
+
+            v = transform @ v
+
+            if body_to_highlight in node_key:
+                highlight_v = v.T
+                highlight_f = f+face_offset
+
+            vertices_list.append(v.T)
+            face_offset += v.shape[1]
+        
+        # Obtain all vertices and faces
+        vertices = np.concatenate(vertices_list)
+        faces = np.concatenate(faces_list)
+
+        # Show the combined mesh
+        p = mp.plot(vertices[:,0:3], faces)
+
+        # Corners of the bounding box
+        m = np.min(highlight_v, axis=0)
+        ma = np.max(highlight_v, axis=0)
+
+        v_box = np.array([[m[0], m[1], m[2]], [ma[0], m[1], m[2]], [ma[0], ma[1], m[2]], [m[0], ma[1], m[2]],
+                          [m[0], m[1], ma[2]], [ma[0], m[1], ma[2]], [ma[0], ma[1], ma[2]], [m[0], ma[1], ma[2]]])
+
+        # Edges of the bounding box
+        f_box = np.array([[0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], 
+                          [7, 4], [0, 4], [1, 5], [2, 6], [7, 3]], dtype=np.int)
+
+        # Draw bounding box
+        p.add_edges(v_box, f_box, shading={"line_color": "blue"});
+
+
+        a = vertices[:,0:3][highlight_f[:,0]]
+        b = vertices[:,0:3][highlight_f[:,1]]
+
+        p.add_lines(a, b,  shading={"line_color": "red"});
+
+        ##################################################################################################
+        
+        draw_tier1()            
         
     def draw_tier1():
         
         additional_tier1 = ["[Unknown / Can't Tell]", "[Skip Entire Body]"]
+        display_3d = ["[Display 3D Object]"]
         
         buttons_tier1 = []
         standard_buttons = []
@@ -298,18 +380,31 @@ def annotate_functional_basis(examples,
         print("Additional Options (Tier 1):")
 
         for label in additional_tier1:
+            
+            def on_click(label, btn):
+                add_annotation_tier1_additional(label) 
         
             btn = Button(description=label)
+            
             btn.style.button_color = 'pink'
 
+            btn.on_click(functools.partial(on_click, label))
+            tier1_additional_buttons.append(btn)
+        
+        for label in display_3d:
+            
             def on_click(label, btn):
-                add_annotation_tier1_additional(label)     
+                display_3d_object() 
+        
+            btn = Button(description=label)
+            
+            btn.style.button_color = 'lightblue'
 
             btn.on_click(functools.partial(on_click, label))
             tier1_additional_buttons.append(btn)
         
         box_additional = HBox(tier1_additional_buttons)
-        display(box_additional)
+        display(box_additional)        
         
         display_fn(examples[current_index])
         

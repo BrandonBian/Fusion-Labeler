@@ -132,7 +132,7 @@ def filter_assemblies(examples,
         custom_buttons = []
         tier1_additional_buttons = []
         
-        print(f"[Progress: {current_index+1}/{len(examples)}]")
+        print(f"[Filtering Assemblies - Progress: {current_index+1}/{len(examples)}]")
         print("--------------------------")
           
         # Tier 1 Label Options

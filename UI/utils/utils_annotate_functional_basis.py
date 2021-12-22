@@ -515,14 +515,14 @@ def annotate_functional_basis(examples,
         elif tier2_choice == "change":
             tier3_options = ["increment", "decrement", "shape", "condition"]
 
-        elif tier2_choice == "sfp":
+        elif tier2_choice == "stop":
             tier3_options = ["prevent", "inhibit"]
 
         elif tier2_choice == "store":
-            tier3_options = ["detect", "measure"]
+            tier3_options = ["contain", "collect"]   
 
         elif tier2_choice == "sense":
-            tier3_options = ["contain", "collect"]       
+            tier3_options = ["detect", "measure"]      
             
         elif tier2_choice == "indicate":
             tier3_options = ["track", "display"]   

@@ -1,7 +1,7 @@
 # Fusion-Labeler
 
 ## Tutorial:
-Please check out the tutorial video here
+Please check out the tutorial video [here](https://youtu.be/LszJEKjMAN8).
 
 ## Requirements (make sure to install them first):
 1. Python ([from official website](https://www.python.org/downloads/release/python-3810/)): preferably **version 3.8.10**

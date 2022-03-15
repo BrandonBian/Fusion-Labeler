@@ -25,6 +25,6 @@ git clone https://github.com/BrandonBian/Fusion-Labeler.git
 0. Delete ALL the placeholders in "Bodies_to_be_labeled/" and "labels/" directories.
 1. Put dataset assigned to you to the "Bodies_to_be_labeled/" directory.
 2. Go to the "UI/" directory, and copy its path.
-3. Open Anaconda prompt and move to the directory by running "cd \[paste the path here\]".
-4. Open Jupyter Notebook by running "jupyter notebook".
-5. Open "Annotate_Functional_Basis.ipynb" and follow instructions to perform labeling.
+3. Open Anaconda prompt and move to the directory by running "cd \[paste the path here\]". (If this does not work, run this: "cd \d \[path\]" instead).
+5. Open Jupyter Notebook by running "jupyter notebook".
+6. Open "Annotate_Functional_Basis.ipynb" and follow instructions to perform labeling.
